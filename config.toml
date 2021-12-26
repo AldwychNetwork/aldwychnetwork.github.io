@@ -1,0 +1,8 @@
+siteTitle="Aldwych Network Home"
+linkPrefix = "/website"
+theme="red"
+themeSecondary="violet"
+[[menuItems]]
+name = "Proposal"
+link = "proposal"
+icon = "file text"
