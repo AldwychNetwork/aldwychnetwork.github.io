@@ -1,5 +1,5 @@
 siteTitle="Aldwych Network Home"
-linkPrefix = "/website"
+linkPrefix = ""
 theme="red"
 themeSecondary="violet"
 [[menuItems]]
