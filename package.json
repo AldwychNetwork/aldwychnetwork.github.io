@@ -26,9 +26,10 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
-    "build": "rm -rf ./docs; gatsby build --prefix-links; mv ./public ./docs;",
+    "build": "rm -rf ./docs; gatsby build --prefix-links; mv ./public ./docs; cp ./CNAME ./docs/CNAME;",
     "build-css": "cd semantic/; gulp build; cd ../;",
-    "watch-css": "cd semantic/; gulp watch; cd ../;"
+    "watch-css": "cd semantic/; gulp watch; cd ../;",
+    "deploy-gh": "`git add .; git commit -m process.env.COMMIT_MESSAGE; git status;`"
   },
   "main": "html.js",
   "directories": {

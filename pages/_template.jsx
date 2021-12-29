@@ -10,7 +10,9 @@ export default class IndexTemplate extends Component {
     return (
       <SideMenu>
         {this.props.children}
-        <Footer />
+        <Footer>
+          <p>This is a test!!!!!!!!</p>
+        </Footer>
       </SideMenu>
     )
   }

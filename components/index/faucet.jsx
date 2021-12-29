@@ -9,7 +9,7 @@ export default class Faucet extends Component {
       <Grid.Column>
         <Header as='h3' inverted>
           2. Start using Aldwych
-          <Header.Subheader>Kovan Faucet Services</Header.Subheader>
+          <Header.Subheader>Aldwych Faucet Services</Header.Subheader>
         </Header>
         <p>Receive ALD to any EIP-55 based address.</p>
         <Header as='h4' content='Receive ALD' inverted />
