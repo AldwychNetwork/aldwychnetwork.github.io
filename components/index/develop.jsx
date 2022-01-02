@@ -16,7 +16,7 @@ export default class Faucet extends Component {
           3. Develop!
           <Header.Subheader>Deploy your Contracts</Header.Subheader>
         </Header>
-        <p>Once you have a Connection and some ALD, you're ready to go!</p>
+        <p>Once you have a Connection Method and some ALD, you're ready to go!</p>
         <p>The Ethereum development ecosystem is ever-growing and you can use many of the same tools that you're already familiar with.</p>
         <Header as='h4' content='Truffle' inverted />
         <p>Truffle is the most popular development framework for Ethereum. You can connect to Aldwych in one of the following ways:</p>
@@ -34,7 +34,7 @@ export default class Faucet extends Component {
               HD Wallet Provider
             </a>
             {' '}
-            to connect to a remote RPC node such as Infura
+            to connect to a remote RPC node such as the one provided on this page, in the 'Connect to Aldwych' Section
           </List.Item>
         </List>
         <LinkButton

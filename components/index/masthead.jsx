@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Icon, Header, Button, Grid, Container } from 'semantic-ui-react'
-import { Link } from 'react-router'
 import LinkButton from '../link_button'
 import { config } from 'config'
 

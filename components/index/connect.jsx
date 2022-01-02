@@ -21,7 +21,7 @@ export default class Connect extends Component {
         <p>Aldwych Chain Spec & bootnodes on Github</p>
         <pre><code>git clone https://github.com/aldwychnetwork/poa-chain-spec.git</code></pre>
         <p>Start OpenEthereum w/ flags</p>
-        <pre><code>openethereum --chain /path/to/spec.json --reserved-peers /path/to/bootnodes.txt</code></pre>
+        <pre><code>openethereum --chain /repo/path/spec.json --reserved-peers /repo/path/bootnodes.txt</code></pre>
         <Button.Group>
           <LinkButton
             basic inverted
@@ -29,7 +29,7 @@ export default class Connect extends Component {
             content='OpenEthereum Repository'
           />
         </Button.Group>
-        <Header as='h4' content='Aldwych RPC Providers' inverted />
+        <Header as='h4' content='Aldwych RPC Provider' inverted />
         <p>Connect your web3 wallet to Aldwych Mainnet using Custom RPC Provider Config below.</p>
         <pre>{MetamaskConfig}</pre>
         <LinkButton

@@ -6,7 +6,7 @@ import { Link } from 'react-router'
 export default class LinkButton extends Component {
   render () {
     const { to, children } = this.props
-    const external = to.indexOf('http') === 0
+    const external = to.indexOf('http') === 0 || to.indexOf('mailto') === 0
 
     return (
       <Button

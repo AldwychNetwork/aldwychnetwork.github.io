@@ -33,7 +33,7 @@ export default class Advantages extends Component {
           />
           <IconColumn
             header='Cheap'
-            subHeader='Transactions on Aldwych Network are cheaper & quicker'
+            subHeader='Transactions on Aldwych Network consume less gas & validated quicker'
             icon='bar'
             inverted
           />
@@ -45,7 +45,7 @@ export default class Advantages extends Component {
           />
           <IconColumn
             header='Innovation'
-            subHeader='Cross-chain bridge help transfer assets from chain-to-chain'
+            subHeader='Cross-chain bridge helps to transfer assets from chain-to-chain'
             icon='space shuttle'
             inverted
           />

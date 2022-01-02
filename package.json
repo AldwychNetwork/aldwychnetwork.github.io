@@ -1,8 +1,8 @@
 {
-  "name": "kovan-web",
-  "description": "Kovan Ethereum Testnet Website",
+  "name": "aldwych-web",
+  "description": "Aldwych Network Website - An Ethereum Side-Chain",
   "version": "0.0.1",
-  "author": "Chris Hitchcott <chris@hitchcott.com>",
+  "author": "Stephen Arsenault <hashguide@thecryptoist.com> plus Thanks to Chris Hitchcott <chris@hitchcott.com>",
   "dependencies": {
     "config": "^3.3.3",
     "gatsby": "^0.12.38",
@@ -26,10 +26,9 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
-    "build": "rm -rf ./docs; gatsby build --prefix-links; mv ./public ./docs; cp ./CNAME ./docs/CNAME;",
+    "build": "rm -rf ./docs; gatsby build --prefix-links; echo 'Move public to docs' && mv ./public ./docs; echo 'Copy CNAME to docs folder' && cp ./CNAME ./docs/CNAME;",
     "build-css": "cd semantic/; gulp build; cd ../;",
-    "watch-css": "cd semantic/; gulp watch; cd ../;",
-    "deploy-gh": "`git add .; git commit -m process.env.COMMIT_MESSAGE; git status;`"
+    "watch-css": "cd semantic/; gulp watch; cd ../;"
   },
   "main": "html.js",
   "directories": {
@@ -37,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kovan-testnet/website.git"
+    "url": "git+https://github.com/aldwychnetwork/aldwychnetwork.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/kovan-testnet/website/issues"
+    "url": "https://github.com/aldwychnetwork/aldwychnetwork.github.io/issues"
   },
   "homepage": "https://github.com/kovan-testnet/website#readme"
 }

@@ -8,7 +8,7 @@ export default class Faucet extends Component {
       <Grid.Column>
         <Header as='h3'>
           Explorer
-          <Header.Subheader>Analyse Transactions</Header.Subheader>
+          <Header.Subheader>Analyze Transactions</Header.Subheader>
         </Header>
         <LinkButton
           basic
