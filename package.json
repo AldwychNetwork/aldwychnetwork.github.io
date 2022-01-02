@@ -26,7 +26,7 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
-    "build": "rm -rf ./docs; gatsby build --prefix-links; echo 'Move public to docs' && mv ./public ./docs; echo 'Copy CNAME to docs folder' && cp ./CNAME ./docs/CNAME;",
+    "build": "rm -rf ./docs; gatsby build --prefix-links;echo 'End of Gatsby build' && echo '*************'; echo 'Moving public to docs' && mv ./public ./docs;echo 'Copying CNAME to docs folder' && cp ./CNAME ./docs/CNAME;echo 'Copying favicon.png to docs folder' && cp ./assets/favicon.png ./docs/favicon.png",
     "build-css": "cd semantic/; gulp build; cd ../;",
     "watch-css": "cd semantic/; gulp watch; cd ../;"
   },
